@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using FizzBuzz.Core;
+﻿using FizzBuzz.Core;
 using FluentAssertions;
 using NUnit.Framework;
 
 namespace FizzBuzz.Tests
 {
-    public class WhenPrintingARangeWithStandardAndPrimeRules
+    public class WhenCalculatingAnOutputWithStandardAndPrimeRules
     {
         private FizzBuzzEngine fizzBuzz;
 
